@@ -1,0 +1,32 @@
+.header-background {
+	box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: #3f51b5;
+    padding: 20px;
+    color: white;
+}
+
+.contact-list {
+	margin-top: 20px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.inputStyle {
+	border : none;
+}
+
+.inputStyle:focus{
+    outline: none;
+}
+
+.selectedText {
+	padding: 2px;
+	border: 2px solid green;
+	background: lightgreen;
+	margin-right: 5px;
+}
