@@ -59,7 +59,7 @@
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
@@ -20523,7 +20523,7 @@
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 	
@@ -20573,7 +20573,7 @@
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
@@ -41181,7 +41181,7 @@
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError('Cannot call a class as a function'); } }
 	
@@ -41551,7 +41551,7 @@
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
@@ -41739,18 +41739,11 @@
 	        break;
 	      // slower
 	      default:
-	        len = arguments.length;
-	        args = new Array(len - 1);
-	        for (i = 1; i < len; i++)
-	          args[i - 1] = arguments[i];
+	        args = Array.prototype.slice.call(arguments, 1);
 	        handler.apply(this, args);
 	    }
 	  } else if (isObject(handler)) {
-	    len = arguments.length;
-	    args = new Array(len - 1);
-	    for (i = 1; i < len; i++)
-	      args[i - 1] = arguments[i];
-	
+	    args = Array.prototype.slice.call(arguments, 1);
 	    listeners = handler.slice();
 	    len = listeners.length;
 	    for (i = 0; i < len; i++)
@@ -41788,7 +41781,6 @@
 	
 	  // Check for listener leak
 	  if (isObject(this._events[type]) && !this._events[type].warned) {
-	    var m;
 	    if (!isUndefined(this._maxListeners)) {
 	      m = this._maxListeners;
 	    } else {
@@ -41910,7 +41902,7 @@
 	
 	  if (isFunction(listeners)) {
 	    this.removeListener(type, listeners);
-	  } else {
+	  } else if (listeners) {
 	    // LIFO order
 	    while (listeners.length)
 	      this.removeListener(type, listeners[listeners.length - 1]);
@@ -41931,15 +41923,20 @@
 	  return ret;
 	};
 	
+	EventEmitter.prototype.listenerCount = function(type) {
+	  if (this._events) {
+	    var evlistener = this._events[type];
+	
+	    if (isFunction(evlistener))
+	      return 1;
+	    else if (evlistener)
+	      return evlistener.length;
+	  }
+	  return 0;
+	};
+	
 	EventEmitter.listenerCount = function(emitter, type) {
-	  var ret;
-	  if (!emitter._events || !emitter._events[type])
-	    ret = 0;
-	  else if (isFunction(emitter._events[type]))
-	    ret = 1;
-	  else
-	    ret = emitter._events[type].length;
-	  return ret;
+	  return emitter.listenerCount(type);
 	};
 	
 	function isFunction(arg) {
@@ -41971,7 +41968,7 @@
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
@@ -42088,7 +42085,7 @@
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
@@ -42195,7 +42192,7 @@
 	
 	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ('value' in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
 	
-	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; desc = parent = getter = undefined; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ('value' in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 	
@@ -42213,6 +42210,10 @@
 	
 	var _DropdownList2 = _interopRequireDefault(_DropdownList);
 	
+	var _EditInput = __webpack_require__(325);
+	
+	var _EditInput2 = _interopRequireDefault(_EditInput);
+	
 	var rightSpace = {
 		'float': 'right'
 	};
@@ -42229,8 +42230,7 @@
 		cursor: 'pointer'
 	};
 	
-	var multicounter = 0,
-	    spancounter = 0;
+	var spancounter = 0;
 	
 	var MultiselectComponent = (function (_React$Component) {
 		_inherits(MultiselectComponent, _React$Component);
@@ -42240,16 +42240,16 @@
 	
 			_get(Object.getPrototypeOf(MultiselectComponent.prototype), 'constructor', this).call(this);
 			this.state = {
-				inputs: [{ id: 'multi' + multicounter++, text: '' }],
-				spans: [],
 				currentInput: 'multi0',
-				value: ''
+				children: [{ id: 'multi0', text: '', type: 'input' }]
 			};
-			this._onEnter = this._onEnter.bind(this);
+			this._onKeyUp = this._onKeyUp.bind(this);
 			this._applyStyleOnSelectedWord = this._applyStyleOnSelectedWord;
 			this._onRemove = this._onRemove.bind(this);
-			//this._debounce = this._debounce.bind(this);
-			//this.changeValue = this.debounce(this.changeValue.bind(this),500);
+			this._onEnterPress = this._onEnterPress.bind(this);
+			this._editSpan = this._editSpan.bind(this);
+			this._inputClick = this._inputClick.bind(this);
+			this._setNewState = this._setNewState.bind(this);
 		}
 	
 		_createClass(MultiselectComponent, [{
@@ -42263,57 +42263,93 @@
 				this.refs[this.state.currentInput].getDOMNode().focus();
 			}
 		}, {
-			key: '_onEnter',
-			value: function _onEnter(event) {
-				if (event.key === "Enter") {
-					console.log(this.refs);
-					var id = event.currentTarget.id;
-					var value = event.currentTarget.value;
-					var span = {
-						id: 'span' + spancounter++,
-						text: value
-					};
-					var inputs = this.state.inputs.filter(function (input) {
-						return input.id !== id;
-					});
-					this.setState({
-						currentInput: 'multi' + multicounter,
-						inputs: inputs.concat([{ id: 'multi' + multicounter++, text: '' }]),
-						spans: this.state.spans.concat([span])
-					});
+			key: '_onKeyUp',
+			value: function _onKeyUp(event, react, editMode) {
+				if (event.key === "Enter" || event.keyIdentifier === "Enter") {
+					this._onEnterPress(event, react, editMode);
 				}
+			}
+		}, {
+			key: '_onEnterPress',
+			value: function _onEnterPress(event, react, editMode) {
+				var id = event.currentTarget.id;
+				var value = event.currentTarget.value;
+				event.currentTarget.value = '';
+				var span = {
+					id: 'span' + spancounter++,
+					text: value,
+					type: 'span'
+				};
+	
+				this._setNewState(span, id);
 			}
 		}, {
 			key: '_onRemove',
 			value: function _onRemove(event) {
 				var id = event.currentTarget.id;
-				var spans = this.state.spans.filter(function (span) {
-					return span.id !== id;
+				var children = this.state.children.filter(function (child) {
+					return child.id !== id;
 				});
 				this.setState({
-					spans: spans
+					children: children
 				});
 			}
 		}, {
-			key: '_debounce',
-			value: function _debounce(func, wait, immediate) {
-				var timeout;
-				return function () {
-					var context = this,
-					    args = arguments;
-					var callNow = immediate && !timeout;
-					clearTimeout(timeout);
+			key: '_editSpan',
+			value: function _editSpan(event) {
+				var children = this.state.children;
+				var spanId = event.currentTarget.id;
+				var indexOfSpan;
+				children.forEach(function (child, index) {
+					if (child.id === spanId) {
+						indexOfSpan = index;
+					}
+				});
+				var removed = children.splice(indexOfSpan, 1, { id: 'edit0', text: '', type: 'input' });
+				this.setState({
+					children: children,
+					editMode: true,
+					currentInput: 'edit0'
+				});
+			}
+		}, {
+			key: '_inputClick',
+			value: function _inputClick() {
+				var defaultVal = this.refs['edit0'];
+				var value = this.refs['edit0'] && this.refs['edit0'].getDOMNode().value;
+				if (value) {
+					var span = {
+						id: 'span' + spancounter++,
+						text: value,
+						type: 'span'
+					};
+					this._setNewState(span, "edit0");
+				} else if (defaultVal) {
+					this._setNewState("", "edit0");
+				}
+			}
+		}, {
+			key: '_setNewState',
+			value: function _setNewState(span, id, onEnter) {
+				var children = this.state.children;
+				var childIndex;
 	
-					timeout = setTimeout(function () {
-						timeout = null;
+				children.forEach(function (child, index) {
+					if (child.id === id) {
+						childIndex = index;
+					}
+				});
 	
-						if (!immediate) {
-							func.apply(context, args);
-						}
-					}, wait);
+				var removedArr = children.splice(childIndex, 0, span);
 	
-					if (callNow) func.apply(context, args);
-				};
+				children = this.state.children.filter(function (child) {
+					return child && child.id !== 'edit0';
+				});
+	
+				this.setState({
+					children: children,
+					currentInput: 'multi0'
+				});
 			}
 		}, {
 			key: 'render',
@@ -42323,21 +42359,22 @@
 				return _react2['default'].createElement(
 					'div',
 					{ style: rightSpace },
-					this.state.spans.map(function (elm) {
-						return _react2['default'].createElement(
-							'span',
-							{ className: 'selectedText', key: elm.id, ref: elm.id },
-							elm.text,
-							' ',
-							_react2['default'].createElement(
+					this.state.children.map(function (elm) {
+						if (elm.type === 'input') {
+							return _react2['default'].createElement('input', { id: elm.id, className: 'inputStyle', onKeyUp: _this._onKeyUp, key: elm.id, ref: elm.id, onClick: _this._inputClick });
+						} else {
+							return _react2['default'].createElement(
 								'span',
-								{ id: elm.id, style: closeSpan, onClick: _this._onRemove },
-								'x'
-							)
-						);
-					}),
-					this.state.inputs.map(function (elm) {
-						return _react2['default'].createElement('input', { onChange: true, id: elm.id, className: 'inputStyle', onKeyPress: _this._onEnter, key: elm.id, ref: elm.id });
+								{ id: elm.id, className: 'selectedText', key: elm.id,
+									ref: elm.id, onDoubleClick: _this._editSpan },
+								elm.text,
+								_react2['default'].createElement(
+									'span',
+									{ id: elm.id, style: closeSpan, onClick: _this._onRemove },
+									'x'
+								)
+							);
+						}
 					}),
 					_react2['default'].createElement('div', { style: multiBorder })
 				);
@@ -42349,6 +42386,52 @@
 	
 	exports['default'] = MultiselectComponent;
 	module.exports = exports['default'];
+
+/***/ },
+/* 325 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+		value: true
+	});
+	
+	var _createClass = (function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; })();
+	
+	var _get = function get(_x, _x2, _x3) { var _again = true; _function: while (_again) { var object = _x, property = _x2, receiver = _x3; _again = false; if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { _x = parent; _x2 = property; _x3 = receiver; _again = true; desc = parent = undefined; continue _function; } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } } };
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var _react = __webpack_require__(2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var EditInput = (function (_React$Component) {
+		_inherits(EditInput, _React$Component);
+	
+		function EditInput() {
+			_classCallCheck(this, EditInput);
+	
+			_get(Object.getPrototypeOf(EditInput.prototype), "constructor", this).call(this);
+		}
+	
+		_createClass(EditInput, [{
+			key: "render",
+			value: function render() {
+				return _react2["default"].createElement("input", { className: "inputStyle", id: this.props.id, ref: this.props.reference, onKeyUp: this.props.onKeyUp });
+			}
+		}]);
+	
+		return EditInput;
+	})(_react2["default"].Component);
+	
+	exports["default"] = EditInput;
+	module.exports = exports["default"];
 
 /***/ }
 /******/ ]);
